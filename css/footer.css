@@ -1,0 +1,22 @@
+.footer {
+  height: 100px;
+  padding: 20px;
+  background-color: #231c42;
+  color: #ccc;
+}
+
+.footer-links {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.footer-link a {
+  color: #ccc;
+}
+
+.footer-link {
+  margin-right: 20px;
+}

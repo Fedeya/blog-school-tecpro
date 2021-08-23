@@ -1,19 +1,30 @@
 .nav {
+  width: 80%;
   display: flex;
-  background-color: red;
+  align-items: center;
+  justify-content: space-around;
   width: 100%;
+  padding: 30px;
 }
 
 .nav-brand {
-  margin-right: 20px;
+  margin-right: 100px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  width: 100%;
+  justify-content: center;
 }
 
-.nav-links-item {
-  margin-right: 10px;
+.nav-link-item {
+  margin-right: 20px;
+}
+
+.nav-link-item a {
+  transition: all 400ms ease;
+}
+
+.nav-link-item:hover a:hover {
+  color: #583fdf;
 }
