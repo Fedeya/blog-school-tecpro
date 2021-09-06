@@ -56,3 +56,27 @@
 .blog-read {
   color: #006e77;
 }
+
+.blog-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.blog-favorite {
+  border: 0;
+  background-color: transparent;
+}
+
+.blog-favorite svg {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  transition: all 400ms ease-in;
+}
+
+.blog-favorite-clicked svg {
+  fill: #006e77;
+  stroke: none;
+}
