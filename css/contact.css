@@ -1,0 +1,47 @@
+.form-control {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.form-label {
+  margin-bottom: 20px;
+}
+
+.contact {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  margin-top: 7px;
+  border-radius: 5px;
+  outline: none;
+  resize: vertical;
+  border: 1px solid #ccc;
+  padding: 12px;
+  transition: all 200ms ease;
+}
+
+.form-input:hover {
+  border: 1px solid #006e77;
+}
+
+.form-input:focus {
+  border: 1px solid #006e77;
+}
+
+.button-send {
+  width: 100%;
+  padding: 10px;
+  background-color: #47e5bb;
+  border: 0;
+  outline: none;
+  transition: 200ms ease;
+  border-radius: 5px;
+}
+
+.button-send:hover {
+  background-color: #80e4da;
+}

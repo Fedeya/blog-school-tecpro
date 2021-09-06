@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,29 +32,28 @@
 
       <main class="main">
         <div class="content">
-          <h1 class="title">Blog</h1>
-          <ul class="blogs-list">
-            <li class="blog">
-              <a href="#" class="blog-link">Hello World</a>
-              <p class="blog-content">Hello world is a amazing blog</p>
-              <a href="#" class="blog-read">Read</a>
-            </li>
-            <li class="blog">
-              <a href="#" class="blog-link">Hello World</a>
-              <p class="blog-content">Hello world is a amazing blog</p>
-              <a href="#" class="blog-read">Read</a>
-            </li>
-            <li class="blog">
-              <a href="#" class="blog-link">Hello World</a>
-              <p class="blog-content">Hello world is a amazing blog</p>
-              <a href="#" class="blog-read">Read</a>
-            </li>
-            <li class="blog">
-              <a href="#" class="blog-link">Hello World</a>
-              <p class="blog-content">Hello world is a amazing blog</p>
-              <a href="#" class="blog-read">Read</a>
-            </li>
-          </ul>
+          <h1 class="contact">Contact Me!</h1>
+          <form>
+            <div class="form-control">
+              <label>
+                <span class="form-label">Email</span>
+                <input class="form-input" type="email" placeholder="Email" >
+              </label>
+            </div>
+            <div class="form-control">
+              <label>
+                <span class="form-label">Name</span>
+                <input class="form-input" type="text" placeholder="Name" >
+              </label>
+            </div>
+            <div class="form-control">
+              <label for="message">
+                <span class="form-label">Message</span>
+              </label>
+              <textarea id="message" class="form-input" placeholder="Hi Dr Milanga! ..." cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="button-send">Send</button>
+          </form>
         </div>
       </div>
     </main>
