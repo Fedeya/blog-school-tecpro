@@ -1,8 +1,8 @@
 .footer {
   height: 100px;
   padding: 20px;
-  background-color: #231c42;
-  color: #ccc;
+  background-color: #000000;
+  color: ##000000;
 }
 
 .footer-links {
@@ -14,7 +14,7 @@
 }
 
 .footer-link a {
-  color: #ccc;
+  color: #eee5e8;
 }
 
 .footer-link {
